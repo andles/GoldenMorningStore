@@ -3,7 +3,7 @@ var Product = mongoose.model('Product', require('../models/productsSchema.js'));
 
 module.exports = {
   create: function(req, res){
-  	console.log(req.body);
+  	console.log('create new product function', req.body);
   },
 
   retrieve: function(req, res){
